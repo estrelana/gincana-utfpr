@@ -894,6 +894,8 @@ progress {
 .about-text{
   width: 85%;
   margin: auto;
+
+  background-color: var() ;
 }
 
 @media (min-width: 576px) {
@@ -1112,6 +1114,9 @@ progress {
 @media (min-width: 768px) {
   .col-md {
     flex: 1 0 0%;
+  }
+  #about-all{
+    padding-top: 60px;
   }
 
   .row-cols-md-auto > * {
@@ -5673,9 +5678,13 @@ textarea.form-control-lg {
     border-radius: 0;
   }
 }
+#about-all{
+  text-align: justify;
+}
 @media (max-width: 767.98px) {
   #about-all{
     margin-top: 30px;
+    text-align: justify;
   }
   .modal-fullscreen-md-down {
     width: 100vw;
@@ -11414,7 +11423,7 @@ p {
 }
 header.masthead {
   padding-top: 10.5rem;
-  padding-bottom: 6rem;
+  padding-bottom: 3rem;
   text-align: center;
   color: #fff;
   background-image: url("./img/3Ano.jpg");
