@@ -11793,3 +11793,108 @@ section#contact form#contactForm :-ms-input-placeholder {
   font-size: 0.9rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+
+/*FOTOS*/
+
+h1{
+  text-align: center;
+  position: relative;
+  width: 100%;
+  margin: 14px auto;
+}
+
+
+.img-gallery{
+  width: 80%;
+  margin: 50px auto 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
+  gap: 30px;
+}
+.img-gallery img{
+  width: 100%;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.hover-img{
+  color: #03071e;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.hover-img h1{
+  font-size: 15px;
+}
+
+.hover-img h2{
+  font-size: 13px;
+}
+.overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #ffba08 ;
+}
+.imagens-gincana:hover .overlay {
+  opacity: 0.7;
+}
+
+.imagens-gincana {
+  position: relative;
+  width: 100%;
+}
+
+.imagens-gincana img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.ful-img{
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0,0, 0.9);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 99;
+}
+.ful-img span{
+  position: absolute;
+  top: 15%;
+  right: 27%;
+  font-size: 30px;
+  color: #fff;
+  cursor: pointer;
+}
+.ful-img img{
+  width: 90%;
+  max-width: 600px;
+}
+@media screen and (max-width:400px){
+  h1{
+      text-decoration: underline;
+  }
+  h1::before{
+      display: none;
+  }
+  h1 span{
+      padding: 0;
+  }
+}
