@@ -894,8 +894,7 @@ progress {
 .about-text{
   width: 85%;
   margin: auto;
-
-  background-color: var() ;
+padding: 2%;
 }
 
 @media (min-width: 576px) {
@@ -11878,7 +11877,7 @@ h1{
 .ful-img span{
   position: absolute;
   top: 15%;
-  right: 27%;
+  right: 15%;
   font-size: 30px;
   color: #fff;
   cursor: pointer;
@@ -11898,3 +11897,8 @@ h1{
       padding: 0;
   }
 }
+.container iframe{
+  width: 80%;
+  margin: auto;
+  display: flex;
+ }
