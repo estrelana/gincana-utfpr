@@ -689,6 +689,8 @@ progress {
   height: auto;
 }
 
+
+
 .figure {
   display: inline-block;
 }
@@ -12942,4 +12944,44 @@ h1 {
   width: 80%;
   margin: auto;
   display: flex;
+}
+
+/*nnn*/
+#categorias2{
+  display: none;
+}
+
+
+@media (min-width: 768px) and (max-width:1023px) {
+  #categorias{
+    display: none;
+  }
+
+  #categorias2{
+    display: block;
+  }
+
+  .icon-centro{
+    margin:  0 auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .itens-container{
+    display: flex;
+  }
+
+  .col-md-3 {
+    flex: 0 0 auto;
+    width: 50%;
+    padding: 2rem;
+  }
+
+  .my-3{
+    text-align: center;
+  }
+  .text-muted{
+    text-align: center;
+  }
+
 }
