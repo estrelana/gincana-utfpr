@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/stylesGaleria.css" rel="stylesheet" />
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
     <title>Galeria de Fotos</title>
 </head>
 <body>
@@ -18,13 +19,199 @@
     </div>
   </section>-->
 
-  <section class="galeria">
-    <div>
+  <header id="menu">
+    <a class="navbar-brand" href="#page-top"><img src="./imagens/logo_utfpr.png" alt="..." /></a>
+    <a class="navbar-brand" href="./index.html"><img src="./imagens/seta.png" alt="..." /></a>
+  </header>
 
+  <div class="ful-img" id="fulImgBox">
+    <img src="imgs/1.jpg" id="fulImg" alt="">
+    <span onclick="closeImg()">X</span>
+</div>
+
+<div class="img-gallery">
+
+
+  <div class="imagens-gincana">
+      <img src="./assets/gincana-fotos(separadas)/2022/Todos/1.jpg" onclick="openFulImg(this.src)" alt="">
+      <div class="overlay" onclick="openFulImg('./assets/gincana-fotos(separadas)/2022/Todos/1.jpg')" alt="">
+          <div class="hover-img">
+              <h1>Prova Recriativa</h1>
+              <h2>Se transformar em um sósia do Michael Jackson</h2>
+          </div>
+      </div>
+  </div>
+
+  <div class="imagens-gincana">
+      <img src="./assets/gincana-fotos(separadas)/2022/Todos/3.jpg" onclick="openFulImg(this.src)" alt="">
+      <div class="overlay" onclick="openFulImg('./assets/gincana-fotos(separadas)/2022/Todos/3.jpg')" alt="">
+          <div class="hover-img">
+              <h1>Prova Recriativa</h1>
+              <h2>Reproduzir looks do anos 80</h2>
+          </div>
+      </div>
+  </div>
+
+  <div class="imagens-gincana">
+      <img src="./assets/gincana-fotos(separadas)/2022/M33/7-recortada.jpg" onclick="openFulImg(this.src)" alt="">
+      <div class="overlay" onclick="openFulImg('./assets/gincana-fotos(separadas)/2022/M33/7.jpg')" alt="">
+          <div class="hover-img">
+              <h1>Prova Recriativa</h1>
+              <h2>Reproduzir looks do anos 80</h2>
+          </div>
+      </div>
+  </div>
+ 
+
+  <div class="imagens-gincana">
+    <img src="./assets/gincana-fotos(separadas)/2022/Todos/2.jpg" onclick="openFulImg(this.src)" alt="">
+    <div class="overlay" onclick="openFulImg('./assets/gincana-fotos(separadas)/2022/Todos/2.jpg')" alt="">
+        <div class="hover-img">
+            <h1>Prova Recriativa</h1>
+            <h2>Reproduzir looks do anos 80</h2>
+        </div>
     </div>
-  </section>
-   
-    
-    
+</div>
+
+<div class="imagens-gincana">
+  <img src="./assets/gincana-fotos(separadas)/2022/Todos/4.jpg" onclick="openFulImg(this.src)" alt="">
+  <div class="overlay" onclick="openFulImg('./assets/gincana-fotos(separadas)/2022/Todos/4.jpg')" alt="">
+      <div class="hover-img">
+          <h1>Prova Recriativa</h1>
+          <h2>Reproduzir looks do anos 80</h2>
+      </div>
+  </div>
+</div>
+
+<div class="imagens-gincana">
+  <img src="./assets/gincana-fotos(separadas)/2022/Todos/6.JPG" onclick="openFulImg(this.src)" alt="">
+  <div class="overlay" onclick="openFulImg('./assets/gincana-fotos(separadas)/2022/Todos/6.JPG')" alt="">
+      <div class="hover-img">
+          <h1>Prova Recriativa</h1>
+          <h2>Reproduzir looks do anos 80</h2>
+      </div>
+  </div>
+</div>
+
+<div class="imagens-gincana">
+  <img src="./assets/gincana-fotos(separadas)/2022/Todos/9.JPG" onclick="openFulImg(this.src)" alt="">
+  <div class="overlay" onclick="openFulImg('./assets/gincana-fotos(separadas)/2022/Todos/9.JPG')" alt="">
+      <div class="hover-img">
+          <h1>Prova Recriativa</h1>
+          <h2>Reproduzir looks do anos 80</h2>
+      </div>
+  </div>
+</div>
+
+<div class="imagens-gincana">
+  <img src="./assets/gincana-fotos(separadas)/2022/M31/1.jpg" onclick="openFulImg(this.src)" alt="">
+  <div class="overlay" onclick="openFulImg('./assets/gincana-fotos(separadas)/2022/M31/1.jpg')" alt="">
+      <div class="hover-img">
+          <h1>Prova Recriativa</h1>
+          <h2>Reproduzir looks do anos 80</h2>
+      </div>
+  </div>
+</div>
+
+<div class="imagens-gincana">
+  <img src="./assets/gincana-fotos(separadas)/2022/M33/11-recortada.jpg" onclick="openFulImg(this.src)" alt="">
+  <div class="overlay" onclick="openFulImg('./assets/gincana-fotos(separadas)/2022/M33/11.JPG')" alt="">
+      <div class="hover-img">
+          <h1>Prova Recriativa</h1>
+          <h2>Reproduzir looks do anos 80</h2>
+      </div>
+  </div>
+</div>
+
+<div class="imagens-gincana">
+  <img src="./assets/gincana-fotos(separadas)/2022/M34/1.jpg" onclick="openFulImg(this.src)" alt="">
+  <div class="overlay" onclick="openFulImg('./assets/gincana-fotos(separadas)/2022/M34/1.jpg')" alt="">
+      <div class="hover-img">
+          <h1>Prova Recriativa</h1>
+          <h2>Reproduzir looks do anos 80</h2>
+      </div>
+  </div>
+</div>
+
+<div class="imagens-gincana">
+  <img src="./assets/gincana-fotos(separadas)/2022/M31/3-recortada.jpeg" onclick="openFulImg(this.src)" alt="">
+  <div class="overlay" onclick="openFulImg('./assets/gincana-fotos(separadas)/2022/M31/3.jpeg')" alt="">
+      <div class="hover-img">
+          <h1>Prova Recriativa</h1>
+          <h2>Reproduzir looks do anos 80</h2>
+      </div>
+  </div>
+</div>
+
+<div class="imagens-gincana">
+  <img src="./assets/gincana-fotos(separadas)/2022/M32/3.jpg" onclick="openFulImg(this.src)" alt="">
+  <div class="overlay" onclick="openFulImg('./assets/gincana-fotos(separadas)/2022/M32/3.jpg')" alt="">
+      <div class="hover-img">
+          <h1>Prova Recriativa</h1>
+          <h2>Reproduzir looks do anos 80</h2>
+      </div>
+  </div>
+</div>
+
+<div class="imagens-gincana">
+  <img src="./assets/gincana-fotos(separadas)/2022/M33/8.jpg" onclick="openFulImg(this.src)" alt="">
+  <div class="overlay" onclick="openFulImg('./assets/gincana-fotos(separadas)/2022/M31/3.jpeg')" alt="">
+      <div class="hover-img">
+          <h1>Prova Recriativa</h1>
+          <h2>Reproduzir looks do anos 80</h2>
+      </div>
+  </div>
+</div>
+
+<div class="imagens-gincana">
+  <img src="./assets/gincana-fotos(separadas)/2022/M33/2.jpg" onclick="openFulImg(this.src)" alt="">
+  <div class="overlay" onclick="openFulImg('./assets/gincana-fotos(separadas)/2022/M31/3.jpeg')" alt="">
+      <div class="hover-img">
+          <h1>Prova Recriativa</h1>
+          <h2>Reproduzir looks do anos 80</h2>
+      </div>
+  </div>
+</div>
+
+<div class="imagens-gincana">
+  <img src="./assets/gincana-fotos(separadas)/2022/M33/1-recortada.jpg" onclick="openFulImg(this.src)" alt="">
+  <div class="overlay" onclick="openFulImg('./assets/gincana-fotos(separadas)/2022/M33/1.JPG')" alt="">
+      <div class="hover-img">
+          <h1>Prova Recriativa</h1>
+          <h2>Reproduzir looks do anos 80</h2>
+      </div>
+  </div>
+</div>
+
+<div class="imagens-gincana">
+  <img src="./assets/gincana-fotos(separadas)/2022/M33/4.jpg" onclick="openFulImg(this.src)" alt="">
+  <div class="overlay" onclick="openFulImg('./assets/gincana-fotos(separadas)/2022/M33/4.jpg')" alt="">
+      <div class="hover-img">
+          <h1>Prova Recriativa</h1>
+          <h2>Reproduzir looks do anos 80</h2>
+      </div>
+  </div>
+</div>
+</div>
+<!--<footer class="footer py-4">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-4 text-lg-start">Copyright (c) 2013-2023 Start Bootstrap LLC</div>
+            <div class="col-lg-4 my-3 my-lg-0">
+                <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/utfprcm/?hl=pt-br"
+                    aria-label="Instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/utfprcampomourao/"
+                    aria-label="Facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-dark btn-social mx-2" href="https://www.youtube.com/@UTFPRCM" aria-label="Youtube"
+                    target="_blank"><i class="fab fa-youtube"></i></a>
+            </div>
+            <div class="col-lg-4 text-lg-end">
+                <a class="link-dark text-decoration-none me-3" href="#!">Privacy Policy</a>
+                <a class="link-dark text-decoration-none" href="#!">Terms of Use</a>
+            </div>
+        </div>
+    </div>
+</footer>-->
+<script src="./js/script2.js"></script>
 </body>
 </html>
