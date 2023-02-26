@@ -244,7 +244,48 @@ h1 {
   margin-bottom: 0 !important;
 }
 
+.btn-dark {
+  color: #023e8a;
+  background-color: #caf0f8;
+  border-color: #caf0f8;
+  border-radius: 50%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+/*RODAPE -  FOOTER*/
+.rodape {
+  height: 100px;
+  text-align: center;
+  background-color: #343a40;
+  color: #e9ecef;
+  
+}
 
-footer {
-  background-color: #1a1e21;
+.rodape pre {
+  font-family: var(--fonte-leitura);
+  font-size: 15px;
+}
+
+.rodape p {
+  color: #e9ecef;
+  background-color: #212529;
+  position: relative;
+  bottom: 0;
+  height: 6vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.rodape .rodape-logo {
+  font-size: 17px;
+  padding-top: 1%;
+  height: 10vh;
+  font-family: var(--fonte-logo);
+}
+
+
+.rodape-contato {
+  padding: 20px;
 }
