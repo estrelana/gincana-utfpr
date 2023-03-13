@@ -12981,6 +12981,12 @@ h1 {
   .itens-container{
     display: flex;
   }
+  .centro{
+   display: flex;
+   justify-content: center;
+
+}
+
 
   .col-md-3 {
     flex: 0 0 auto;
@@ -13012,4 +13018,8 @@ h1 {
   .margin-reg{
     margin-bottom: 55px;
   }
+}
+
+.x{
+margin: 0 auto;
 }
