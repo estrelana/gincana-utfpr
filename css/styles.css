@@ -12343,6 +12343,16 @@ p {
   border-radius: 100%;
 }
 
+.btn-reg {
+  height: 2.5rem;
+  width: 9.5rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-evenly ;
+  padding: 0;
+  border-radius: 10px;
+}
+
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -12985,4 +12995,21 @@ h1 {
     text-align: center;
   }
 
+}
+
+.row-2{
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width:991px) {
+  .row-2{
+    display: block;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .margin-reg{
+    margin-bottom: 55px;
+  }
 }
