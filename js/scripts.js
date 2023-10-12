@@ -1,11 +1,4 @@
-/*!
-* Start Bootstrap - Agency v7.0.11 (https://startbootstrap.com/theme/agency)
-* Copyright 2013-2022 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-agency/blob/master/LICENSE)
-*/
-//
-// Scripts
-// 
+
 
 window.addEventListener('DOMContentLoaded', event => {
 
@@ -50,6 +43,14 @@ window.addEventListener('DOMContentLoaded', event => {
             }
         });
     });
-
 });
 
+var imagens = ['imagem1.jpg', 'imagem2.jpg', 'imagem3.jpg']; // substitua por seus nomes de arquivo de imagem
+var contador = 0;
+
+function alterarImagem() {
+    contador = (contador + 1) % imagens.length;
+    document.getElementById('carrossel').src = imagens[contador];
+}
+
+setInterval(alterarImagem, 3000);

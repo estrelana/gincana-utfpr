@@ -12388,7 +12388,7 @@ p {
 
 #mainNav .navbar-nav .nav-item .nav-link.active,
 #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #fadde1;
+  color: #ffd500;
 }
 
 @media (min-width: 992px) {
@@ -12447,7 +12447,7 @@ header.masthead {
   padding-bottom: 3rem;
   text-align: center;
   color: #fff;
-  background-image: url("./img/3Ano.jpg");
+  background-image: url("./img/fotodestaque.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
