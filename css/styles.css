@@ -13023,3 +13023,13 @@ h1 {
 .x{
 margin: 0 auto;
 }
+@media screen and (min-width: 776px), screen and (max-width: 990px)  {
+  .ful-img span {
+    position: absolute;
+    top: 15%;
+    right: 2%;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+  }
+}
